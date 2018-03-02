@@ -1,0 +1,6 @@
+framework module Pods_ProjectCarmex {
+  umbrella header "Pods-ProjectCarmex-umbrella.h"
+
+  export *
+  module * { export * }
+}
