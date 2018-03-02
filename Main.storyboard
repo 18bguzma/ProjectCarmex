@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home Screen-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="homeScreen" customModule="ProjectCarmex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6F-84-bqw">
+                                <rect key="frame" x="150" y="362" width="75" height="30"/>
+                                <state key="normal" title="Create List"/>
+                                <connections>
+                                    <action selector="createButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="09N-MJ-0Es"/>
+                                    <segue destination="SQI-vj-FUf" kind="presentation" id="IYp-r3-1mK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jwz-4n-G4Y">
+                                <rect key="frame" x="159" y="324" width="57" height="30"/>
+                                <state key="normal" title="Join List"/>
+                                <connections>
+                                    <action selector="joinButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fl7-zL-8Sq"/>
+                                    <segue destination="2aP-hI-WS2" kind="presentation" id="8UK-kt-oXK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="y6F-84-bqw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DgP-aq-R01"/>
+                            <constraint firstItem="Jwz-4n-G4Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tdc-uY-MJQ"/>
+                            <constraint firstItem="Jwz-4n-G4Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="280" id="jfr-9W-cdZ"/>
+                            <constraint firstItem="y6F-84-bqw" firstAttribute="top" secondItem="Jwz-4n-G4Y" secondAttribute="bottom" constant="8" id="sQT-yE-f68"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Join Menu View Controller-->
+        <scene sceneID="FnU-g0-JfA">
+            <objects>
+                <viewController id="2aP-hI-WS2" customClass="joinMenuViewController" customModule="ProjectCarmex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rHc-Tp-Sy6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join a Grocrey List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7L-q7-qQf">
+                                <rect key="frame" x="116" y="64" width="142" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0g-rq-REH">
+                                <rect key="frame" x="28" y="6" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="L7L-q7-qQf" firstAttribute="top" secondItem="ELl-gP-i65" secondAttribute="top" constant="20" id="3YV-I5-IuL"/>
+                            <constraint firstItem="L7L-q7-qQf" firstAttribute="centerX" secondItem="rHc-Tp-Sy6" secondAttribute="centerX" id="T7e-t9-nET"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ELl-gP-i65"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cr9-Hb-abf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1333.5999999999999" y="34.729064039408868"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="94h-2N-ok1">
+            <objects>
+                <viewController id="SQI-vj-FUf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J70-VE-Z9r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create a Grocery List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3J-7d-O1d">
+                                <rect key="frame" x="106" y="64" width="162" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="a3J-7d-O1d" firstAttribute="top" secondItem="Kdh-gj-kw4" secondAttribute="top" constant="20" id="0X4-x9-FV1"/>
+                            <constraint firstItem="a3J-7d-O1d" firstAttribute="centerX" secondItem="J70-VE-Z9r" secondAttribute="centerX" id="7hB-nO-7p2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Kdh-gj-kw4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TLx-rD-ARp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1993" y="35"/>
+        </scene>
+    </scenes>
+</document>
