@@ -9,7 +9,10 @@
 import UIKit
 
 class createMenuViewController: UIViewController {
-
+    @IBAction func backButtonTapped(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
