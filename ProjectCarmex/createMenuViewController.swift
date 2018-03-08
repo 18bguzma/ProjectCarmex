@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
+var ref: DatabaseReference!
 
 class createMenuViewController: UIViewController {
     @IBAction func backButtonTapped(_ sender: Any) {
@@ -15,6 +18,8 @@ class createMenuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        ref = Database.database().reference()
+        
 
         // Do any additional setup after loading the view.
     }

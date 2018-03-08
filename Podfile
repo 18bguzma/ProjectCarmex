@@ -6,6 +6,7 @@ target 'ProjectCarmex' do
   use_frameworks!
   pod 'Firebase/Core'
   pod 'GoogleToolboxForMac'
+  pod 'Firebase/Database'
   # Pods for ProjectCarmex
 
 end
