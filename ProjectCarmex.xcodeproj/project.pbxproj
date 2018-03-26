@@ -15,6 +15,7 @@
 		2C57A9CF2049FD9C00CF675F /* homeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C57A9CC2049FD9C00CF675F /* homeScreen.swift */; };
 		2C57A9D02049FD9C00CF675F /* createMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C57A9CD2049FD9C00CF675F /* createMenuViewController.swift */; };
 		2C57A9D12049FD9C00CF675F /* joinMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C57A9CE2049FD9C00CF675F /* joinMenuViewController.swift */; };
+		5882C81F2064405A006C7DBC /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882C81E2064405A006C7DBC /* RoundedImage.swift */; };
 		A2257249D8C44C66485A90F2 /* Pods_ProjectCarmex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EF5D880844ABBD3D54DF90 /* Pods_ProjectCarmex.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		2C57A9CD2049FD9C00CF675F /* createMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createMenuViewController.swift; sourceTree = "<group>"; };
 		2C57A9CE2049FD9C00CF675F /* joinMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = joinMenuViewController.swift; sourceTree = "<group>"; };
 		57E6428771E49C421B12F22D /* Pods-ProjectCarmex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectCarmex.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectCarmex/Pods-ProjectCarmex.release.xcconfig"; sourceTree = "<group>"; };
+		5882C81E2064405A006C7DBC /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
 		D5EF5D880844ABBD3D54DF90 /* Pods_ProjectCarmex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectCarmex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 		2C1CB9452049B8F100410892 /* ProjectCarmex */ = {
 			isa = PBXGroup;
 			children = (
+				5882C81E2064405A006C7DBC /* RoundedImage.swift */,
 				2C1CB9462049B8F100410892 /* AppDelegate.swift */,
 				2C57A9CA2049FD7500CF675F /* Main.storyboard */,
 				2C57A9CD2049FD9C00CF675F /* createMenuViewController.swift */,
@@ -233,6 +236,7 @@
 				2C57A9CF2049FD9C00CF675F /* homeScreen.swift in Sources */,
 				2C57A9D12049FD9C00CF675F /* joinMenuViewController.swift in Sources */,
 				2C1CB94F2049B8F100410892 /* ProjectCarmex.xcdatamodeld in Sources */,
+				5882C81F2064405A006C7DBC /* RoundedImage.swift in Sources */,
 				2C1CB9472049B8F100410892 /* AppDelegate.swift in Sources */,
 				2C57A9D02049FD9C00CF675F /* createMenuViewController.swift in Sources */,
 			);
@@ -289,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -340,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
