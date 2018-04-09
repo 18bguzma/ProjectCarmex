@@ -22,6 +22,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yTZ-1k-RNe" customClass="MyButton" customModule="ProjectCarmex" customModuleProvider="target">
+                                <rect key="frame" x="112.66666666666669" y="386" width="150" height="40"/>
+                                <color key="backgroundColor" red="0.1137576399" green="1" blue="0.1607050367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1kN-ex-6UT"/>
+                                    <constraint firstAttribute="width" constant="150" id="BBE-0v-zgb"/>
+                                </constraints>
+                                <state key="normal" title="Join List">
+                                    <color key="titleColor" red="0.98637475961269849" green="1" blue="0.91438229591716025" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6F-84-bqw" customClass="MyButton" customModule="ProjectCarmex" customModuleProvider="target">
                                 <rect key="frame" x="150" y="406" width="75" height="30"/>
                                 <state key="normal" title="Create List"/>
@@ -47,10 +61,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="y6F-84-bqw" firstAttribute="top" secondItem="yTZ-1k-RNe" secondAttribute="bottom" constant="20" id="51v-0S-ZjX"/>
+                            <constraint firstItem="yTZ-1k-RNe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5Bh-Vg-Umg"/>
                             <constraint firstItem="y6F-84-bqw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DgP-aq-R01"/>
-                            <constraint firstItem="Jwz-4n-G4Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tdc-uY-MJQ"/>
-                            <constraint firstItem="Jwz-4n-G4Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="280" id="jfr-9W-cdZ"/>
-                            <constraint firstItem="y6F-84-bqw" firstAttribute="top" secondItem="Jwz-4n-G4Y" secondAttribute="bottom" constant="8" id="sQT-yE-f68"/>
+                            <constraint firstItem="e78-Ak-pYp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JCW-BR-Bos"/>
+                            <constraint firstItem="yTZ-1k-RNe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c0V-l3-Ljh"/>
+                            <constraint firstItem="e78-Ak-pYp" firstAttribute="top" secondItem="y6F-84-bqw" secondAttribute="bottom" constant="20" id="pgZ-aO-K4U"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -74,14 +90,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0g-rq-REH">
-                                <rect key="frame" x="30" y="6" width="34" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <action selector="backButtonTapped:" destination="2aP-hI-WS2" eventType="touchUpInside" id="Cbd-e1-Dsh"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type Code Here..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qJ3-oY-mCZ">
                                 <rect key="frame" x="87" y="391" width="200" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -103,6 +111,14 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0g-rq-REH">
+                                <rect key="frame" x="28" y="44" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="2aP-hI-WS2" eventType="touchUpInside" id="Cbd-e1-Dsh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
