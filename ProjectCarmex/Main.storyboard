@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4tO-gt-kFu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4tO-gt-kFu">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -35,6 +35,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="cbd-sQ-Arl" kind="presentation" id="T8o-8x-ZRL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6F-84-bqw" customClass="MyButton" customModule="ProjectCarmex" customModuleProvider="target">
                                 <rect key="frame" x="112" y="446" width="150" height="40"/>
@@ -51,7 +54,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="createButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="09N-MJ-0Es"/>
-                                    <segue destination="SQI-vj-FUf" kind="presentation" id="IYp-r3-1mK"/>
+                                    <segue destination="abr-Rc-cLy" kind="presentation" id="eE6-vh-iNr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e78-Ak-pYp" customClass="MyButton" customModule="ProjectCarmex" customModuleProvider="target">
@@ -142,7 +145,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cr9-Hb-abf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2398" y="40"/>
+            <point key="canvasLocation" x="2484" y="-317"/>
         </scene>
         <!--Create Menu View Controller-->
         <scene sceneID="94h-2N-ok1">
@@ -153,7 +156,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create a Grocery List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3J-7d-O1d">
-                                <rect key="frame" x="106.66666666666669" y="64" width="162" height="21"/>
+                                <rect key="frame" x="106.66666666666669" y="108" width="162" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -194,10 +197,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Kdh-gj-kw4"/>
                     </view>
+                    <navigationItem key="navigationItem" id="zlt-TQ-xPH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TLx-rD-ARp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3170" y="40"/>
+            <point key="canvasLocation" x="4092" y="32"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wb1-Ps-bSI">
@@ -278,6 +282,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RSG-fI-vyy">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.30964112939999999" green="1" blue="0.093655500530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -286,7 +291,26 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="34F-I2-FKA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1660" y="-326"/>
+            <point key="canvasLocation" x="1778" y="-333"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="40e-Tw-m2x">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="abr-Rc-cLy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i5o-cg-BXa">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.30964112939999999" green="1" blue="0.093655500530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="SQI-vj-FUf" kind="relationship" relationship="rootViewController" id="4Sb-qU-jmm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cRL-Gn-N8I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3169.5999999999999" y="39.90147783251232"/>
         </scene>
     </scenes>
 </document>
