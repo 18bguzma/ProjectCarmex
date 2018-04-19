@@ -9,13 +9,12 @@
 import UIKit
 
 class joinMenuViewController: UIViewController {
-
-    @IBAction func backButtonTapped(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+            self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: "backButton")
+            self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage(named: "backButton")
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
 
         // Do any additional setup after loading the view.
     }
