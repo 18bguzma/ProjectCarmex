@@ -9,13 +9,12 @@
 import UIKit
 
 class joinMenuViewController: UIViewController {
-
-    @IBAction func backButtonTapped(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+            self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: "backButton")
+            self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage(named: "backButton")
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
 
         // Do any additional setup after loading the view.
     }
@@ -24,6 +23,12 @@ class joinMenuViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    override func viewWillAppear(_ animated: Bool) {
+        navigationItem.title = "Join"
+        navigationItem.hidesBackButton = false;
+    }
+    
+    
     
 
     /*

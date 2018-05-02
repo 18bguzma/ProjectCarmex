@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4tO-gt-kFu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4tO-gt-kFu">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Menlo.ttc">
-            <string>Menlo-Bold</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Home Screen-->
         <scene sceneID="tne-QT-ifu">
@@ -36,7 +31,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="cbd-sQ-Arl" kind="presentation" id="T8o-8x-ZRL"/>
+                                    <segue destination="2aP-hI-WS2" kind="show" id="wiE-Kt-1p2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6F-84-bqw" customClass="MyButton" customModule="ProjectCarmex" customModuleProvider="target">
@@ -54,7 +49,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="createButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="09N-MJ-0Es"/>
-                                    <segue destination="abr-Rc-cLy" kind="presentation" id="eE6-vh-iNr"/>
+                                    <segue destination="SQI-vj-FUf" kind="show" id="hXe-Io-zIO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e78-Ak-pYp" customClass="MyButton" customModule="ProjectCarmex" customModuleProvider="target">
@@ -71,7 +66,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="ywu-gL-iOx" kind="presentation" id="67u-3f-C6o"/>
+                                    <segue destination="rgo-GY-v46" kind="show" id="HHr-zg-Hjb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -90,7 +85,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1015.2" y="121.92118226600985"/>
+            <point key="canvasLocation" x="991" y="122"/>
         </scene>
         <!--Join Menu View Controller-->
         <scene sceneID="FnU-g0-JfA">
@@ -128,14 +123,6 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0g-rq-REH">
-                                <rect key="frame" x="28" y="44" width="34" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <action selector="backButtonTapped:" destination="2aP-hI-WS2" eventType="touchUpInside" id="Cbd-e1-Dsh"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -148,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cr9-Hb-abf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2484" y="-317"/>
+            <point key="canvasLocation" x="2506" y="-333"/>
         </scene>
         <!--Create Menu View Controller-->
         <scene sceneID="94h-2N-ok1">
@@ -175,21 +162,13 @@
                                 <rect key="frame" x="164" y="597" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="ab2-Oq-jpk" kind="presentation" id="pc9-p4-sRW"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9j8-ur-dao">
                                 <rect key="frame" x="150" y="391" width="75" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Create List"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wER-Q8-ERS">
-                                <rect key="frame" x="30" y="44" width="34" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
                                 <connections>
-                                    <action selector="backButtonTapped:" destination="SQI-vj-FUf" eventType="touchUpInside" id="TKe-HP-Suc"/>
+                                    <action selector="createButtonTapped:" destination="SQI-vj-FUf" eventType="touchUpInside" id="5kA-v4-edw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -204,7 +183,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TLx-rD-ARp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4434.3999999999996" y="31.773399014778327"/>
+            <point key="canvasLocation" x="4460" y="40"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wb1-Ps-bSI">
@@ -215,7 +194,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mGH-LT-Ste">
-                                <rect key="frame" x="0.0" y="98" width="375" height="660"/>
+                                <rect key="frame" x="0.0" y="54" width="375" height="704"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
@@ -299,63 +278,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ulH-gC-PbW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="31" y="122"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="vu1-Sk-rds">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cbd-sQ-Arl" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RSG-fI-vyy">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.30964112939999999" green="1" blue="0.093655500530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="2aP-hI-WS2" kind="relationship" relationship="rootViewController" id="UrN-Rr-vPt"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="34F-I2-FKA" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1778" y="-333"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="40e-Tw-m2x">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="abr-Rc-cLy" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i5o-cg-BXa">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.30964112939999999" green="1" blue="0.093655500530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="SQI-vj-FUf" kind="relationship" relationship="rootViewController" id="4Sb-qU-jmm"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cRL-Gn-N8I" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3511.1999999999998" y="39.90147783251232"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Fbx-IH-P0h">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ywu-gL-iOx" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1W6-c7-jpU">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.1137576399" green="1" blue="0.1607050367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="rgo-GY-v46" kind="relationship" relationship="rootViewController" id="pub-tP-vVj"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FPH-Yw-CMg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1777" y="751"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.98371094020000005" green="1" blue="0.95114494999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

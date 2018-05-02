@@ -1,81 +1,82 @@
 PODS:
-  - Firebase/Core (4.10.0):
-    - FirebaseAnalytics (= 4.1.0)
-    - FirebaseCore (= 4.0.16)
-  - Firebase/Database (4.10.0):
+  - Firebase/Core (4.13.0):
+    - FirebaseAnalytics (= 4.2.0)
+    - FirebaseCore (= 4.0.20)
+  - Firebase/Database (4.13.0):
     - Firebase/Core
     - FirebaseDatabase (= 4.1.5)
-  - FirebaseAnalytics (4.1.0):
+  - FirebaseAnalytics (4.2.0):
     - FirebaseCore (~> 4.0)
     - FirebaseInstanceID (~> 2.0)
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
     - nanopb (~> 0.3)
-  - FirebaseCore (4.0.16):
+  - FirebaseCore (4.0.20):
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
   - FirebaseDatabase (4.1.5):
     - FirebaseAnalytics (~> 4.1)
     - FirebaseCore (~> 4.0)
     - leveldb-library (~> 1.18)
-  - FirebaseInstanceID (2.0.9):
+  - FirebaseInstanceID (2.0.10):
     - FirebaseCore (~> 4.0)
-  - GoogleToolboxForMac (2.1.3):
-    - GoogleToolboxForMac/Core (= 2.1.3)
-    - GoogleToolboxForMac/Defines (= 2.1.3)
-    - GoogleToolboxForMac/GeometryUtils (= 2.1.3)
-    - GoogleToolboxForMac/KVO (= 2.1.3)
-    - GoogleToolboxForMac/Logger (= 2.1.3)
-    - GoogleToolboxForMac/NSData+zlib (= 2.1.3)
-    - GoogleToolboxForMac/NSDictionary+URLArguments (= 2.1.3)
-    - GoogleToolboxForMac/NSFileHandle+UniqueName (= 2.1.3)
-    - GoogleToolboxForMac/NSScanner+JSON (= 2.1.3)
-    - GoogleToolboxForMac/NSString+HTML (= 2.1.3)
-    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
-    - GoogleToolboxForMac/NSString+XML (= 2.1.3)
-    - GoogleToolboxForMac/NSThread+Blocks (= 2.1.3)
-    - GoogleToolboxForMac/Regex (= 2.1.3)
-    - GoogleToolboxForMac/StringEncoding (= 2.1.3)
-    - GoogleToolboxForMac/SystemVersion (= 2.1.3)
-    - GoogleToolboxForMac/URLBuilder (= 2.1.3)
-  - GoogleToolboxForMac/Core (2.1.3):
-    - GoogleToolboxForMac/Defines (= 2.1.3)
-  - GoogleToolboxForMac/DebugUtils (2.1.3):
-    - GoogleToolboxForMac/Defines (= 2.1.3)
-  - GoogleToolboxForMac/Defines (2.1.3)
-  - GoogleToolboxForMac/GeometryUtils (2.1.3):
-    - GoogleToolboxForMac/Defines (= 2.1.3)
-  - GoogleToolboxForMac/KVO (2.1.3):
-    - GoogleToolboxForMac/Core (= 2.1.3)
-    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
-  - GoogleToolboxForMac/Logger (2.1.3):
-    - GoogleToolboxForMac/Defines (= 2.1.3)
-  - GoogleToolboxForMac/NSData+zlib (2.1.3):
-    - GoogleToolboxForMac/Defines (= 2.1.3)
-  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3):
-    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
-    - GoogleToolboxForMac/Defines (= 2.1.3)
-    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
-  - GoogleToolboxForMac/NSFileHandle+UniqueName (2.1.3):
-    - GoogleToolboxForMac/Defines (= 2.1.3)
-  - GoogleToolboxForMac/NSScanner+JSON (2.1.3):
-    - GoogleToolboxForMac/Defines (= 2.1.3)
-  - GoogleToolboxForMac/NSString+HTML (2.1.3):
-    - GoogleToolboxForMac/Core (= 2.1.3)
-  - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
-  - GoogleToolboxForMac/NSString+XML (2.1.3):
-    - GoogleToolboxForMac/Defines (= 2.1.3)
-  - GoogleToolboxForMac/NSThread+Blocks (2.1.3):
-    - GoogleToolboxForMac/Defines (= 2.1.3)
-  - GoogleToolboxForMac/Regex (2.1.3):
-    - GoogleToolboxForMac/Defines (= 2.1.3)
-  - GoogleToolboxForMac/StringEncoding (2.1.3):
-    - GoogleToolboxForMac/Defines (= 2.1.3)
-  - GoogleToolboxForMac/SystemVersion (2.1.3):
-    - GoogleToolboxForMac/Defines (= 2.1.3)
-  - GoogleToolboxForMac/URLBuilder (2.1.3):
-    - GoogleToolboxForMac/Core (= 2.1.3)
-    - GoogleToolboxForMac/Defines (= 2.1.3)
-    - GoogleToolboxForMac/NSDictionary+URLArguments (= 2.1.3)
-    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
+  - GoogleToolboxForMac (2.1.4):
+    - GoogleToolboxForMac/Core (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - GoogleToolboxForMac/GeometryUtils (= 2.1.4)
+    - GoogleToolboxForMac/KVO (= 2.1.4)
+    - GoogleToolboxForMac/Logger (= 2.1.4)
+    - GoogleToolboxForMac/NSData+zlib (= 2.1.4)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (= 2.1.4)
+    - GoogleToolboxForMac/NSFileHandle+UniqueName (= 2.1.4)
+    - GoogleToolboxForMac/NSScanner+JSON (= 2.1.4)
+    - GoogleToolboxForMac/NSString+HTML (= 2.1.4)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)
+    - GoogleToolboxForMac/NSString+XML (= 2.1.4)
+    - GoogleToolboxForMac/NSThread+Blocks (= 2.1.4)
+    - GoogleToolboxForMac/Regex (= 2.1.4)
+    - GoogleToolboxForMac/StringEncoding (= 2.1.4)
+    - GoogleToolboxForMac/SystemVersion (= 2.1.4)
+    - GoogleToolboxForMac/URLBuilder (= 2.1.4)
+  - GoogleToolboxForMac/Core (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/DebugUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/GeometryUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/KVO (2.1.4):
+    - GoogleToolboxForMac/Core (= 2.1.4)
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/NSData+zlib (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)
+  - GoogleToolboxForMac/NSFileHandle+UniqueName (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/NSScanner+JSON (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/NSString+HTML (2.1.4):
+    - GoogleToolboxForMac/Core (= 2.1.4)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.4)
+  - GoogleToolboxForMac/NSString+XML (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/NSThread+Blocks (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Regex (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/StringEncoding (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/SystemVersion (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/URLBuilder (2.1.4):
+    - GoogleToolboxForMac/Core (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (= 2.1.4)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)
+  - HandySwift (2.6.0)
   - leveldb-library (1.20)
   - nanopb (0.3.8):
     - nanopb/decode (= 0.3.8)
@@ -87,17 +88,19 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Database
   - GoogleToolboxForMac
+  - HandySwift (~> 2.4)
 
 SPEC CHECKSUMS:
-  Firebase: c98c8b1fbcbdccd82539a36c2b17a9b1bb0ee798
-  FirebaseAnalytics: 3dfae28d4a5e06f86c4fae830efc2ad3fadb19bc
-  FirebaseCore: eb9e1a56733ff1094ecf3e28af9069c344b25239
+  Firebase: 5ec5e863d269d82d66b4bf56856726f8fb8f0fb3
+  FirebaseAnalytics: 7ef69e76a5142f643aeb47c780e1cdce4e23632e
+  FirebaseCore: 90cb1c53d69b556f112a1bf72b5fcfaad7650790
   FirebaseDatabase: 5f0bc6134c5c237cf55f9e1249d406770a75eafd
-  FirebaseInstanceID: d2058a35e9bebda1b6dd42486b84917bde552a9d
-  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  HandySwift: 510039979f68ab2c6866f1707634815654ed329b
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
 
-PODFILE CHECKSUM: 84689dd0c6cb8f48c50bb4a7b26ccc0e0f8d00e6
+PODFILE CHECKSUM: 1bdc05f47bde163d136c01ecb801bdf8695f238a
 
 COCOAPODS: 1.4.0
