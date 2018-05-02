@@ -254,10 +254,13 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="dP7-Ed-chu"/>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="AddButton" destination="dP7-Ed-chu" id="XNL-Rp-8Vx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uBu-iz-fQs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2484" y="625"/>
+            <point key="canvasLocation" x="2484" y="751"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uHa-Wt-OW4">
@@ -355,4 +358,5 @@
             <point key="canvasLocation" x="1777" y="751"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.98371094020000005" green="1" blue="0.95114494999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

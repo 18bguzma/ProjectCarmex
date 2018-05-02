@@ -72,9 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				5882C81E2064405A006C7DBC /* RoundedImage.swift */,
-				2C1CB9462049B8F100410892 /* AppDelegate.swift */,
 				2C57A9CA2049FD7500CF675F /* Main.storyboard */,
 				5802624D2087D9D200121619 /* ListMenuUI.swift */,
+				2C1CB9462049B8F100410892 /* AppDelegate.swift */,
 				2C57A9CD2049FD9C00CF675F /* createMenuViewController.swift */,
 				2C57A9CC2049FD9C00CF675F /* homeScreen.swift */,
 				2C57A9CE2049FD9C00CF675F /* joinMenuViewController.swift */,
