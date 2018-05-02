@@ -158,15 +158,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8W3-1a-pDQ">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8W3-1a-pDQ">
                                 <rect key="frame" x="164" y="597" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9j8-ur-dao">
-                                <rect key="frame" x="150" y="391" width="75" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Create List"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9j8-ur-dao">
+                                <rect key="frame" x="150" y="479" width="75" height="30"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Create List">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <action selector="createButtonTapped:" destination="SQI-vj-FUf" eventType="touchUpInside" id="5kA-v4-edw"/>
                                 </connections>
@@ -176,6 +182,10 @@
                         <constraints>
                             <constraint firstItem="a3J-7d-O1d" firstAttribute="top" secondItem="Kdh-gj-kw4" secondAttribute="top" constant="20" id="0X4-x9-FV1"/>
                             <constraint firstItem="a3J-7d-O1d" firstAttribute="centerX" secondItem="J70-VE-Z9r" secondAttribute="centerX" id="7hB-nO-7p2"/>
+                            <constraint firstItem="8W3-1a-pDQ" firstAttribute="top" secondItem="9j8-ur-dao" secondAttribute="bottom" constant="88" id="9dI-gZ-X8l"/>
+                            <constraint firstItem="9j8-ur-dao" firstAttribute="top" secondItem="a3J-7d-O1d" secondAttribute="bottom" constant="350" id="Kv2-9o-XyD"/>
+                            <constraint firstItem="9j8-ur-dao" firstAttribute="leading" secondItem="Kdh-gj-kw4" secondAttribute="leading" constant="150" id="qXv-eT-Qbn"/>
+                            <constraint firstItem="Kdh-gj-kw4" firstAttribute="trailing" secondItem="9j8-ur-dao" secondAttribute="trailing" constant="150" id="rC9-bk-bg3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Kdh-gj-kw4"/>
                     </view>
