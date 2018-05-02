@@ -7,6 +7,7 @@ target 'ProjectCarmex' do
   pod 'Firebase/Core'
   pod 'GoogleToolboxForMac'
   pod 'Firebase/Database'
+  pod 'HandySwift', '~> 2.4'
   # Pods for ProjectCarmex
 
 end
