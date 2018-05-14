@@ -8,11 +8,6 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Menlo.ttc">
-            <string>Menlo-Bold</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Home Screen-->
         <scene sceneID="tne-QT-ifu">
@@ -190,38 +185,61 @@
             </objects>
             <point key="canvasLocation" x="4460" y="40"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="wb1-Ps-bSI">
+        <!--View Controller Add-->
+        <scene sceneID="g7n-Lr-qku">
             <objects>
-                <viewController id="JdF-hm-Xl3" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fqt-3j-Vhe">
+                <viewController id="LYe-SF-feO" customClass="ViewControllerAdd" customModule="ProjectCarmex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gqv-P8-tky">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mGH-LT-Ste">
-                                <rect key="frame" x="0.0" y="98" width="375" height="660"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9aD-A9-vP2">
+                                <rect key="frame" x="16" y="319" width="343" height="399"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            </tableView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jm1-dq-P4l">
+                                <rect key="frame" x="139" y="121" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9rJ-mb-MWf">
+                                <rect key="frame" x="139" y="184" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sof-j3-q5u">
+                                <rect key="frame" x="172" y="222" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add">
+                                    <color key="titleColor" red="0.1137576399" green="1" blue="0.1607050367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jGm-lW-U4t">
+                                <rect key="frame" x="166" y="271" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="mGH-LT-Ste" firstAttribute="leading" secondItem="CHp-hx-afZ" secondAttribute="leading" id="at9-1i-6aJ"/>
-                            <constraint firstItem="mGH-LT-Ste" firstAttribute="top" secondItem="CHp-hx-afZ" secondAttribute="top" constant="10" id="bSl-Tb-va0"/>
-                            <constraint firstItem="CHp-hx-afZ" firstAttribute="bottom" secondItem="mGH-LT-Ste" secondAttribute="bottom" constant="20" id="raE-TG-XJ9"/>
-                            <constraint firstItem="CHp-hx-afZ" firstAttribute="trailing" secondItem="mGH-LT-Ste" secondAttribute="trailing" id="zlX-eZ-oxf"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="CHp-hx-afZ"/>
+                        <viewLayoutGuide key="safeArea" id="HE4-CE-GsN"/>
                     </view>
-                    <navigationItem key="navigationItem" id="oUf-UQ-1xa">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="wXy-hF-1T8"/>
-                    </navigationItem>
+                    <connections>
+                        <outlet property="labelMessage" destination="jGm-lW-U4t" id="mne-rt-qZk"/>
+                        <outlet property="tableViewArtists" destination="9aD-A9-vP2" id="JfL-Eh-a68"/>
+                        <outlet property="textFieldGenre" destination="9rJ-mb-MWf" id="erz-YH-GIO"/>
+                        <outlet property="textFieldName" destination="jm1-dq-P4l" id="QO3-gD-i8F"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="42B-zT-WbC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hjk-1N-X1l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4460" y="750.73891625615772"/>
+            <point key="canvasLocation" x="3349.5999999999999" y="750.73891625615772"/>
         </scene>
         <!--List MenuUI-->
         <scene sceneID="U6b-kU-HuO">
@@ -235,7 +253,11 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="hX6-TT-0RS">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="dP7-Ed-chu"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="dP7-Ed-chu">
+                            <connections>
+                                <segue destination="LYe-SF-feO" kind="show" id="F6R-xC-ImL"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -244,26 +266,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uBu-iz-fQs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2484" y="751"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="uHa-Wt-OW4">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ab2-Oq-jpk" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jvX-Pk-Abf">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.1137576399" green="1" blue="0.1607050367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="JdF-hm-Xl3" kind="relationship" relationship="rootViewController" id="287-8w-dMV"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OnI-w8-Hdl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3546.4000000000001" y="750.73891625615772"/>
+            <point key="canvasLocation" x="2484" y="750.73891625615772"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RPR-1s-cic">

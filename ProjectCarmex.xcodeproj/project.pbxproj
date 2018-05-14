@@ -17,6 +17,7 @@
 		2C57A9D12049FD9C00CF675F /* joinMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C57A9CE2049FD9C00CF675F /* joinMenuViewController.swift */; };
 		5802624E2087D9D200121619 /* ListMenuUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5802624D2087D9D200121619 /* ListMenuUI.swift */; };
 		5882C81F2064405A006C7DBC /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882C81E2064405A006C7DBC /* RoundedImage.swift */; };
+		58D4648420A4D87000722E80 /* ViewControllerAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D4648320A4D87000722E80 /* ViewControllerAdd.swift */; };
 		A2257249D8C44C66485A90F2 /* Pods_ProjectCarmex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EF5D880844ABBD3D54DF90 /* Pods_ProjectCarmex.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		57E6428771E49C421B12F22D /* Pods-ProjectCarmex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectCarmex.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectCarmex/Pods-ProjectCarmex.release.xcconfig"; sourceTree = "<group>"; };
 		5802624D2087D9D200121619 /* ListMenuUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMenuUI.swift; sourceTree = "<group>"; };
 		5882C81E2064405A006C7DBC /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
+		58D4648320A4D87000722E80 /* ViewControllerAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewControllerAdd.swift; path = "/Users/hsoimac-02/Desktop/ProjectCarmex/ProjectCarmex/ViewControllerAdd.swift"; sourceTree = "<absolute>"; };
 		D5EF5D880844ABBD3D54DF90 /* Pods_ProjectCarmex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectCarmex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 		2C1CB9452049B8F100410892 /* ProjectCarmex */ = {
 			isa = PBXGroup;
 			children = (
+				58D4648320A4D87000722E80 /* ViewControllerAdd.swift */,
 				5882C81E2064405A006C7DBC /* RoundedImage.swift */,
 				2C57A9CA2049FD7500CF675F /* Main.storyboard */,
 				5802624D2087D9D200121619 /* ListMenuUI.swift */,
@@ -240,6 +243,7 @@
 			files = (
 				2C57A9CF2049FD9C00CF675F /* homeScreen.swift in Sources */,
 				2C57A9D12049FD9C00CF675F /* joinMenuViewController.swift in Sources */,
+				58D4648420A4D87000722E80 /* ViewControllerAdd.swift in Sources */,
 				2C1CB94F2049B8F100410892 /* ProjectCarmex.xcdatamodeld in Sources */,
 				5882C81F2064405A006C7DBC /* RoundedImage.swift in Sources */,
 				2C1CB9472049B8F100410892 /* AppDelegate.swift in Sources */,
